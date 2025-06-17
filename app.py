@@ -14,6 +14,7 @@ model_pipeline = joblib.load('car_price_model_pipeline.pkl')
 
 # Initialize Dash app
 app = dash.Dash(__name__, assets_folder='assets')
+server = app.server 
 
 # Load data for analytics
 car_price_df = pd.read_csv("used_car_price_dataset_extended.csv")
