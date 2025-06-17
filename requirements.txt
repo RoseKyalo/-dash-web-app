@@ -67,3 +67,4 @@ pandas-datareader
 
 # Statistical analysis
 statsmodels
+gunicorn
