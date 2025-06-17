@@ -1,5 +1,6 @@
 dash
-gunicorn
-pandas        # if you're using it
-plotly        # if you're using it
-numpy         # if you're using it
+dash-table
+pandas
+numpy
+plotly
+joblib
